@@ -1,0 +1,12 @@
+{
+  "name": "and-express",
+  "version": "1.0.0",
+  "description": "THis repo is for practice and building fullstack websites",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node hello.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
