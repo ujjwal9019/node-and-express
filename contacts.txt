@@ -1,2 +1,2 @@
  ujjwal = 9319699891 ;
- random = 8755640000 hey there  hey there /n  hey there /n  hey there /n hey there /n
+ random = 8755640000 
