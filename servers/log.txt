@@ -1,26 +1,7 @@
-1714538446255 : New Request Reciived at time
-1714538446305 : New Request Reciived at time
-1714538452984 : New Request Reciived at time
-1714538453026 : New Request Reciived at time
-1714538548025 /: New Request Reciived at time
-1714538548077 /favicon.ico: New Request Reciived at time
-1714538554665 /about: New Request Reciived at time
-1714538554712 /favicon.ico: New Request Reciived at time
-1714538859975 /about: New Request Reciived at time
-1714538860041 /favicon.ico: New Request Reciived at time
-1714538874679 /: New Request Reciived at time
-1714538874727 /favicon.ico: New Request Reciived at time
-1714538892300 /abcd: New Request Reciived at time
-1714538892346 /favicon.ico: New Request Reciived at time
-1714541156387 /: New Request Reciived at time
-1714541156452 /favicon.ico: New Request Reciived at time
-1714541282959 /: New Request Reciived at time
-1714541283019 /favicon.ico: New Request Reciived at time
-1714541384987 /: New Request Reciived at time
-1714541398358 /about: New Request Reciived at time
-1714541516268 /about?id=1&a=2: New Request Reciived at time
-1714541573961 /about?q=javascript&oq=javascrt&gs_lcrp=EgZjaHJvbWUqDAgBEAAYChixAxiABDIGCAAQRRg5MgwIARAAGAoYsQMYgAQyDwgCEAAYChiDARixAxiABDIMCAMQABgKGLEDGIAEMgwIBBAAGAoYsQMYgAQyDwgFEAAYChiDARixAxiABDIMCAYQABgKGLEDGIAEMg8IBxAAGAoYgwEYsQMYgAQyEggIEAAYChiDARixAxiABBiKBTIMCAkQABgKGLEDGIAE0gEIMjY4OWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8: New Request Reciived at time
-1714541659472 /about?myname=ujjwal&userid=1: New Request Reciived at time
-1714541686274 /about?myname=ujjwal&userid=1: New Request Reciived at time
-1714541872104 /about?myname=ujjwal&userid=1: New Request Reciived at time
-1714542074628 /about?myname=ujjwal&userid=1: New Request Reciived at time
+1714586092270 GET /about?myname=ujjwal&userid=1: New Request Reciived at time
+1714586410407 GET /about?myname=ujjwal&userid=1: New Request Reciived at time
+1714586436280 GET /signup: New Request Reciived at time
+1714586477904 GET /signup: New Request Reciived at time
+1714586478485 GET /signup: New Request Reciived at time
+1714586495839 GET /signup: New Request Reciived at time
+1714586530984 GET /signup: New Request Reciived at time
