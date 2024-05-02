@@ -6,7 +6,7 @@ const url = require("url");
  const myserver = http.createServer((req , res) => {
     if(req.url === "/favicon.ico") return res.end();
     const log = `${Date.now()} ${req.method} ${req.url}: New Request Reciived at time\n`;
-    // Now we can extract query parameter by writing true
+    // Now we can extract query parameter by writing true !
   const Myurl = url.parse(req.url ,true);
 
     console.log(Myurl);
