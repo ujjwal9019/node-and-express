@@ -1,5 +1,19 @@
 REST API - JSON 
 
-GET/user - List All user
+GET /users - HTML Document Render
 
-GET/Users/1 - Get the user with 1
+GET/api/user - List All user json
+ 
+GET/api/Users/1 - Get the user with  id 1
+
+GET/api/users/:id 
+id = Dynamic url 
+
+
+POST /api/user - Create new user
+
+PATCH /api/user/1 - Edit user with id 1
+
+DELETE /api/user/1 - DELETE THE USER WITH ID 1
+
+ 
