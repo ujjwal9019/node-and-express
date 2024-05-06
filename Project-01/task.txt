@@ -1,0 +1,5 @@
+REST API - JSON 
+
+GET/user - List All user
+
+GET/Users/1 - Get the user with 1
