@@ -57,6 +57,8 @@ app.get("/users" , (req , res) =>  {
 
 
 app.get("/api/users" , (req , res) => {
+    // This is the way to create headers
+    res.setHeader("myname" , "Ujjwal" )
 return res.json(users);
 })
 
