@@ -10,6 +10,20 @@ const PORT = 7000;
 // jab bhi koi data aaega to body me dalne ka kaam krega 
 app.use (express.urlencoded({extended : false}))
 
+// next point to next middlkware 
+app.use((req , res , next) => {
+  fs.appendFile("log.txt" , `\n${Date.now()} : ${req.method} : ${req.path} ` ,  (err , data) =>{
+    next();
+  })
+})
+
+// app.use((req , res , next) => {
+//     console.log("hello from the middleware  2")
+//     return res.json({ msg : "hello from middleware 2"})
+//     next();
+// })
+
+
 
 //routes
 
