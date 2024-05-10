@@ -1,3 +1,7 @@
 
 1715232433607 : GET : /api/users 
 1715233630484 : GET : /api/users 
+1715236003323 : POST : /api/users 
+1715236028425 : POST : /api/users 
+1715236083468 : POST : /api/users 
+1715236094670 : POST : /api/users 

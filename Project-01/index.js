@@ -67,12 +67,16 @@ return res.json(users);
 app.post("/api/users" , (req, res) => {
     //create user with id
 
+
     // form data aagaya post man se starting me undifined dikha rha that kyuki usse data ki body ke baare me pata nhi tha fir humne middleware use kra to pata chal gya
     const body = req.body;
+    if(!body || !body.first_name || !body.last_name || !body.email || !body.gender || !body.job_title){
+        res.status(402).json({mssg : "req all feild"} ) ;
+    }
     users.push({...body , id : users.length + 1  });
     fs.writeFile('./MOCK_DATA.json' , JSON.stringify(users) , (err , data) => {})
  
-    return res.json({status : "pending"});
+    return res.status(200).json({status : "pending"});
 
 })
 
