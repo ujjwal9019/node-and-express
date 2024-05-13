@@ -20,8 +20,9 @@ PATCH /api/user/1 - Edit user with id 1
 DELETE /api/user/1 - DELETE THE USER WITH ID 1
 
  
-
-<!-- CRUD OPERATION CODE -->
+*-----------------*
+CRUD OPERATION CODE
+*--------------------*
 
 
 const express = require("express")
