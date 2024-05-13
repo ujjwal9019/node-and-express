@@ -2,8 +2,42 @@ const express = require("express")
 const users = require("./MOCK_DATA.json")
 const app = express();
 const fs = require("fs")
+const mongoose = require("mongoose");
+const { type } = require("os");
 
 const PORT = 7000;
+//conection 
+
+mongoose.connect('mongodb://127.0.0.1:27017/youtube-app-1').then(() => {
+    console.log("mongodb connected");
+
+}
+).catch((err) => {console.log("Mongo Error" , err)})
+// THis is the the schema 
+const userSchema = new mongoose.Schema({
+    firstName : {
+        type : String ,
+        require : true,
+    },
+    lastName : {
+        type : String , 
+        
+    },
+    email : {
+        type : String ,
+        require : true , 
+        unique : true , 
+
+    },
+    jobTittle : {
+        type : String ,
+    },
+    gender : {
+        type : String ,  
+    }
+});
+
+const User = mongoose.model("user" , userSchema) ; 
 
 
 // MiddleWare - plugin 
